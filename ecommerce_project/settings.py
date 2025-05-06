@@ -29,7 +29,7 @@ import os
 #Environment variables
 SECRET_KEY = os.getenv('a+pd5yfd&7i99igvkz+gaz-h1&b=2_7)fovqh(xx_$l0fesor*', "fallback_dev_secret")
 DEBUG = False
-ALLOWED_HOSTS = ['https://django-ai-recommender-cq26.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['django-ai-recommender-cq26.onrender.com', 'localhost', '127.0.0.1']
 
 OPENAI_KEY = os.getenv('50b4a54b8ee088a6b19544ec7ee9c34c')
 MONGO_URI = os.getenv('5b17ca79352a37aed2151959dad1605f')
